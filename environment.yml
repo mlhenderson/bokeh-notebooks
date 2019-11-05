@@ -8,7 +8,9 @@ dependencies:
   - python=3.6
   - numpy
   - notebook
+  - jupyterlab>=1.1.0
   - bokeh>=1.3.4
+  - jupyter_bokeh>=1.1.0
   - pandas
   - scipy
   - selenium
