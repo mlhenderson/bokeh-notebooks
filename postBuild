@@ -1,3 +1,3 @@
-jupyter labextension install @bokeh/jupyter_bokeh
+jupyter labextension install @bokeh/jupyter_bokeh@1.1.0
 
 python -c "exec(\"import bokeh\\nbokeh.sampledata.download()\")"
