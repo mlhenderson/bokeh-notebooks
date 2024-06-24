@@ -1,1 +1,7 @@
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter labextension install @bokeh/jupyter_bokeh
+
+jupyter nbextension install --sys-prefix --symlink --py jupyter_bokeh
+jupyter nbextension enable jupyter_bokeh --py --sys-prefix
+
 python -c "exec(\"import bokeh\\nbokeh.sampledata.download()\")"
